@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.panel-title{
+	color:#black;	padding: 5px 15px;
+	border-bottom-width:medium;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;}
+	.table{
+		border:solid;
+		border-radius:7px;
+		background:#933;
+		font-family:Georgia, "Times New Roman", Times, serif;
+	}
+		
+		body{
+			background-image:url(../img/cherry-berry-food-two-cherries.jpg);
+			background-repeat:no-repeat;
+			background-size:cover;}
+
+
+		

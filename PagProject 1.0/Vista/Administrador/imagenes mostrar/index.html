@@ -1,0 +1,91 @@
+<html>
+<head><!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="css/stiloingrediente.css"/>
+</head>
+</head>
+<body >
+<form action="proceso_guardar.php" method="post" enctype="multipart/form-data">
+<center>
+<h1>Registro De Productos</h1>
+</center>
+<div class="alert alert-success">
+<div class="row">
+<div class="col-md-3" align="center">
+<table >
+<tr>
+<th >Codigo</th>
+ <td><input type="text" name="cod_prod"  id="imp1"  style="border: 7px;" placeholder="introduzca el codigo"></td>
+</tr>
+
+<tr>
+<th >Nombre</th>
+ <td><input type="text" name="nom_pro"  id="imp1"  style="border: 7px;" placeholder="introduzca el nombre"></td>
+</tr>
+
+<tr>
+<th >Precio</th>
+ <td><input type="text" name="prec_pro"  id="imp1"  style="border: 7px;" placeholder="introduzca el precio"></td>
+</tr>
+
+<tr>
+<th >Descripcion</th>
+<td><textarea type="text" name="desc_pro"  rows="10" cols="30"  id="imp1"  style="border: 7px;" placeholder="introduzca la descripcion del
+producto"></textarea></td>
+</tr>
+
+<tr>
+<th >Imagen del Producto</th>
+ <td><input name="img_pro" type="file" id="imp1"  style="border: 7px;"></td>
+</tr>
+
+<tr>
+<th >Estado del Producto</th>
+ <td>Activo<input name="estado_pro" value="1"  type="radio" id="imp1"  style="border: 7px;">
+ Inactivo<input name="estado_pro" value="0"  type="radio" id="imp1"  style="border: 7px;"></td>
+</tr>
+
+<tr>
+<th >Fecha</th>
+ <td><input name="fecha_ingreso" type="date" id="imp1"  style="border: 7px;"></td>
+</tr>
+
+<tr>
+<th >Categoria</th>
+ <td><select name="cat_nom_cat">
+   <option value="Ensaladas">Ensaladas</option> 
+   <option value="Postres">Postres</option> 
+   <option value="Jugos Naturales">Jugos Naturales</option> 
+   <option value="Malteadas">Malteadas</option> 
+</select></td>
+</tr>
+<br>
+
+<tr>
+<td colspan="2" align="center" style="padding:20px ; ">
+<button type="submit"  style="border: 7px; font-family:Georgia, 'Times New Roman', Times, serif;"class="pure-button pure-button-primary" >registrar producto</button>
+ </td>
+</tr>
+<br>
+
+ <tr>
+ <td colspan="2"><a href="../inicio_administrador.php" style="color:#000"><p>Inicio</p></a></td>
+ </tr>
+
+ <tr>
+ <td colspan="2"><a href="mostrar.php" style="color:#000"><p>Ver Productos</p></a></td>
+ </tr>
+
+
+
+</td>
+</tr>
+
+</form>
+</label></label></table>
+</center>
+
+</body>
+</html>

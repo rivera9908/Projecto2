@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#666;
+
+	}
+	
+.panel-heading{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding:30px 30px;
+	text-shadow: 5px 2px 4px green;
+	text-align:center;}
+.panel-body{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding:30px 30px;
+	text-shadow: 5px 2px 4px green;
+	text-align:center;}
+table{
+	padding:30px 30px;
+	border:solid;
+	background:#066;
+	margin:10px;
+	
+	
+	}
+	
+

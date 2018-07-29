@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	animation:alternate;
+	background-color:#969 ;
+	background-image: url(../img/slider2.jpg);
+     background-repeat: no-repeat;
+	 background-size : cover;
+	
+	}
+	
+	h1{
+		border: solid;
+		background-color: #393;
+		font-style:italic;
+		animation-direction:alternate;	
+		
+		
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:24px}
+		
+		b{
+			font-family:Arial, Helvetica, sans-serif;
+			border:double;
+					background-color: #393;
+			}
+textarea{
+	width:auto;
+	border:double;
+	
+	
+}

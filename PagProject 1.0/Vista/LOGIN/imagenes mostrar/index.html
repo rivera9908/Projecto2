@@ -1,0 +1,39 @@
+<html>
+<head><!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+</head>
+<body background="img/ejemplo.jpg">
+</head>
+<center><br/><br/><br/>
+<form action="proceso_guardar.php" method="post" enctype="multipart/form-data">
+<form>
+<label for="codigo" style="color:#fff"><b>codigo</b></label>
+<input type="text" required name="cod_prod" placeholder="introduzca el codigo">
+<label for="nombre" style="color:#fff"><b>Nombre</b></label>
+<input type="text" required name="nom_pro" placeholder="introduzca el nombre">
+<label for="precio" style="color:#fff"><b>Precio</b></label>
+<input type="text" required name="prec_pro" placeholder="introduzca el precio">
+<label for="descripcion" style="color:#fff"><b>Descripcion</b></label>
+<textarea rows="10" cols="30" required name="desc_pro" placeholder="introduzca la descripcion"></textarea>
+<label for="imagen del producto" style="color:#fff"><b>Imagen del Producto</b></label>
+<input type="file" required name="img_pro"/>
+<label for="Estado del Producto" style="color:#fff"><b>Estado del Producto</b></label>
+<label for="ACTIVO" style="color:#fff">ACTIVO<input type="radio" name="estado_pro" value="1">
+<label for="INACTIVO" style="color:#fff">INACTIVO<input type="radio" name="estado_pro" value="0">
+<label for="fecha" style="color:#fff"><b>Fecha</b></label>
+<input type="date" required name="fecha_ingreso" placeholder="introduzca la fecha">
+<label for="categoria" style="color:#fff"><b>Categoria</b></label>
+<input type="text" required name="cat_nom_cat" placeholder="introduzca la categoria">
+
+<input type="submit" value="registrar producto">
+<a href="../inicio_administrador.php" style="color:#fff"><b>volver al inicio</b></a>
+<a href="mostrar.php" style="color:#fff"><b>ver productos</b></a>
+
+</form>
+</center>
+</form>
+</body>
+</html>
