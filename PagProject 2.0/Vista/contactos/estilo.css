@@ -1,0 +1,125 @@
+
+ 
+	.social ul > li {
+		list-style: none;
+		display: inline-block;
+	}
+ 
+	.social ul li  a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 40px 40px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; 
+		border-radius: 50%;
+
+}
+.social li  a:hover {
+
+	-webkit-transform: rotate(355deg);
+	-moz-transform: rotate(355deg);
+        }
+
+
+	.social ul li .icon-facebook {background: url(facebook.png);
+    							  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  
+    							  
+
+    							  } 
+	.social ul li .icon-twitter {background: url(twitter.png);
+    							  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  } 
+	.social ul li .icon-google {background: url(google.jpg);
+    							  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  
+    							}
+	.social ul li .icon-instagram {background: url(instagram.png);
+	    						  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  
+    							}
+	.social ul li .icon-mail {background: url(gmail.jpg);
+	    						  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  
+    							}		
+ 
+	.social ul li a:hover {
+		//background: #000; 
+		//padding: 10px 30px; 
+	}
+
+body{
+background-image:url(../Administrador/img/freasas.jpg);
+background-repeat: no-repeat;
+background-size: 1400px 600px;}
+
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#999;
+	background-image:url(../Administrador/img/freasas.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+
+	
+	
+	
+	}
+table{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	background-color:#f443367a;
+	
+	border:double;
+	padding: 20px 10px;
+	
+	
+	}
+	th{
+		border:solid;
+		background:#FFF;
+		border-radius:10px;
+	
+		text-justify:tibetan;
+		
+		
+		}
+td{
+	border:solid;
+		background:#FFF;
+		border-radius:10px;
+	text-align:center;
+		text-justify:tibetan;
+		font-family:Georgia, "Times New Roman", Times, serif;
+
+}
+
+button:hover {
+background: rgba(0,0,0,0);
+color: #3a7999;
+box-shadow: inset 0 0 0 3px #3a7999;
+}
+	}
+.h11{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding: 15px 15px;
+	text-align:center;
+	text-decoration:underline;
+	text-shadow:4px 4px 6px #006699;;
+	
+	}
+	h3{
+		text-align:center;
+		}
+	
+

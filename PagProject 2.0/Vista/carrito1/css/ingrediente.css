@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#999;
+	/*background-image:url(../img/freasas.jpg);*/
+	background-repeat:no-repeat;
+	background-size:cover;
+
+	
+	
+	
+	}
+table{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	background-color:#CCC;
+	
+	border:double;
+	padding: 80px 20px;
+	
+	
+	}
+	th{
+		border:solid;
+		background:#FFF;
+		border-radius:10px;
+	
+		text-justify:tibetan;
+		
+		
+		}
+td{
+	border:solid;
+		background:#FFF;
+		border-radius:10px;
+	text-align:center;
+		text-justify:tibetan;
+		font-family:Georgia, "Times New Roman", Times, serif;
+	}
+.h11{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding: 15px 15px;
+	text-align:center;
+	text-decoration:underline;
+	text-shadow:4px 4px 6px #006699;;
+	
+	}
+	h3{
+		text-align:center;
+		}
+	
+
