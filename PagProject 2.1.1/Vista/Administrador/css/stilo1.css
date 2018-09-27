@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+h3{font-size:36px;
+color:#093;
+alignment-adjust:alphabetic;
+font-family:Tahoma, Geneva, sans-serif;
+text-align:center;}
+#container{
+	width:auto;
+	background-color:#999;
+	
+	}
+	
+	body{
+		background-image:url(../../img/fond2.jpg)
+		
+		
+		
+		
+		}
+		
+		tr{
+			padding:20px 20px; }
+
+
+

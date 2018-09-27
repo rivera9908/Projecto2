@@ -1,0 +1,5 @@
+https://codigosdeprogramacion.com/2017/01/22/pdf-en-php-parte-3-reporte-en-pdf-con-mysql/
+
+http://php-estudios.blogspot.com/2013/02/generar-facturas-pdf-con-php.html
+
+https://www.youtube.com/watch?v=A1v6r79H9Ys --cuenta sena--

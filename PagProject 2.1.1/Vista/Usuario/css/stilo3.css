@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#999;
+	
+	
+	}
+table{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	background-color:#CCC;
+	
+	border:double;
+	padding: 80px 20px;
+	
+	
+	}
+	th{
+		border:solid;
+		background:#FFF;
+		
+		
+		
+		}
+td{
+	border: solid;
+	border-bottom-left-radius:7px;
+	background:#FFF;
+	}
+.h11{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding: 15px 15px;
+	text-align:center;
+	text-decoration:underline;
+	text-shadow:4px 4px 6px #006699;;
+	
+	}

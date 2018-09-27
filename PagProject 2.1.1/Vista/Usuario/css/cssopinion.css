@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-image:url(../img/cherry-berry-food-two-cherries.jpg);
+word-spacing:normal;
+background-attachment:fixed;
+	
+	}
+	.hy{ 
+		text-align:center;
+		text-height:font-size;
+		height: 100%;
+	    width: 80%;
+
+}
+.tu{
+	
+	border:solid;
+	height: 100%;
+	width: 50%;
+		
+		background:#933;
+		font-family:Georgia, "Times New Roman", Times, serif;
+	
+	text-align:center;
+	text-justify:distribute;
+	size: 10px;
+	border-radius:7px 7px;
+	
+	
+	}
+	button:before {
+content:”;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100px;
+height: 42px;
+background: rgba(255,255,255,0.3);
+border-radius: 5px;
+transition: all 2s ease;
+}
+
+button:hover:before {
+width: 100%;
+}
+.ti{
+	text-transform:uppercase;
+	
+		border:solid;
+		
+		background:#933;
+		font-family:Georgia, "Times New Roman", Times, serif;
+	
+	text-align:center;
+	text-justify:distribute;
+	padding:30px 70px;
+	border-spacing:4px;
+	border-radius:7px 7px;
+	
+	}	
+	
+
+
+	
+	

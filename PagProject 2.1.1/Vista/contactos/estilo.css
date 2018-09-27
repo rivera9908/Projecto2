@@ -1,0 +1,83 @@
+
+ .panel-title{
+	color:black;	padding: 5px 15px;
+	border-bottom-width:medium;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;}
+	.table{
+		border:solid;
+		border-radius:7px;
+		background:#933;
+		font-family:Georgia, "Times New Roman", Times, serif;
+	}
+	
+	.social ul > li {
+		list-style: none;
+		display: inline-block;
+	}
+ 
+	.social ul li  a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 40px 40px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; 
+		border-radius: 50%;
+
+}
+.social li  a:hover {
+
+	-webkit-transform: rotate(355deg);
+	-moz-transform: rotate(355deg);
+        }
+
+
+	.social ul li .icon-facebook {background: url(img/facebook.png);
+    							  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  
+    							  
+
+    							  } 
+	.social ul li .icon-twitter {background: url(img/twitter.png);
+    							  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  } 
+	.social ul li .icon-google {background: url(img/google.jpg);
+    							  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  
+    							}
+	.social ul li .icon-instagram {background: url(img/instagram.png);
+	    						  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  
+    							}
+	.social ul li .icon-mail {background: url(img/gmail.jpg);
+	    						  background-repeat: no-repeat;
+    							  background-size: 80px 80px;
+    							  
+    							}		
+ 
+
+
+body{
+background-image:url(../Administrador/img/freasas.jpg);
+background-size: 1400px 1400px;}
+
+
+
+	
+
+button:hover {
+background: rgba(0,0,0,0);
+color: #3a7999;
+box-shadow: inset 0 0 0 3px #3a7999;
+}
+	
+
+	
+

@@ -1,0 +1,65 @@
+
+
+
+   div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,fieldset, form, label, 
+    table, caption, tfoot, thead,
+    article, aside, canvas, details, figcaption, figure, 
+    footer, header, menu, nav, section, summary,
+    {
+
+        margin:10px;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+        
+        
+    }
+
+    h2{
+        background-color:  #01A9DB;
+    }
+
+
+   
+
+   
+
+    /* change colours to suit your needs */
+    ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+    }
+
+    /* change colours to suit your needs */
+    mark {
+        background-color:#ff9;
+        color:#000; 
+        font-style:italic;
+        font-weight:bold;
+    }
+
+    del {
+        text-decoration: line-through;
+    }
+
+    tbody{
+
+    float: right;
+    background-color: #E6E6E6 ;
+    color: #63b534;
+    position: right;
+
+    }
+
+
+
+
+
+
+ 
